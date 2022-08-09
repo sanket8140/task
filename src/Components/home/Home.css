@@ -1,0 +1,20 @@
+
+
+#Home .background{
+    margin: 0px;
+    padding: 20px;
+    background: #202C37;
+   height: 900px;
+    color: white;
+  
+}
+
+#Home .btnend {
+    display: flex;
+    justify-content: end;
+}
+
+#Home .btnend button {
+    margin: 30px;
+    padding: 12px 53px;
+}

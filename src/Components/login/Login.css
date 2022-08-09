@@ -1,0 +1,66 @@
+#Login {
+  
+    background-image: -webkit-linear-gradient(
+      124deg,
+      rgba(255, 84, 137, 1) 0%,
+      rgba(255, 255, 255, 1) 62%,
+      rgba(254, 203, 141, 1) 100%
+    );
+    background-image: linear-gradient(
+      124deg,
+      rgba(255, 84, 137, 1) 0%,
+      rgba(255, 255, 255, 1) 62%,
+      rgba(254, 203, 141, 1) 100%
+    );
+   
+    background-repeat: no-repeat;
+    padding: 145px;
+}
+#Login .form-containt {
+    background-color: #ffffff;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+#Login .name-detail {
+    display: flex;
+}
+#Login .title-text {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+#Login .sub-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+#Login input {
+    width: 100%;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 10px 0;
+    border: none;
+    padding: 12px;
+}
+#Login .firstname {
+    width: 50%;
+}
+#Login .lastname {
+    width: 50%;
+    margin-right: -9px;
+}
+#Login button.btn.btn-primary {
+    width: 100%;
+    border-radius: 9px;
+    margin: 10px 0;
+    padding: 12px;
+}
+#Login .icon {
+    float: right;
+    margin: 0 auto;
+}
+

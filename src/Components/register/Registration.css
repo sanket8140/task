@@ -1,0 +1,71 @@
+#Registration {
+
+
+    
+   
+
+    background-image: -webkit-linear-gradient(
+      124deg,
+      rgba(255, 84, 137, 1) 0%,
+      rgba(255, 255, 255, 1) 62%,
+      rgba(254, 203, 141, 1) 100%
+    );
+    background-image: linear-gradient(
+      124deg,
+      rgba(255, 84, 137, 1) 0%,
+      rgba(255, 255, 255, 1) 62%,
+      rgba(254, 203, 141, 1) 100%
+    );
+   
+    background-repeat: no-repeat;
+padding: 50px;
+}
+#Registration .form-containt {
+    background-color: #ffffff;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+#Registration .name-detail {
+    display: flex;
+}
+#Registration .title-text {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+}
+#Registration .sub-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+#Registration input {
+    width: 100%;
+    border-radius: 8px;
+    background: #F8F8F8;
+    margin: 10px 0px;
+    border: none;
+    padding: 12px;
+}
+#Registration .firstname {
+    width: 50%;
+    border-radius: 8px 0 0 8px;
+    margin-right: 3px;
+}
+#Registration .lastname {
+    width: 50%;
+    border-radius: 0 8px 8px 0;
+}
+#Registration button.btn.btn-primary {
+    width: 100%;
+    border-radius: 9px;
+    margin: 10px 0px;
+    padding: 12px;
+}
+#Registration .icon {
+    float: right;
+    margin: 0 auto;
+}
